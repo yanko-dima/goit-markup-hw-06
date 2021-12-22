@@ -469,32 +469,43 @@
             
                 <!-- Form label -->
                 <h2 class="modal-form-title">Оставьте свои данные, мы вам перезвоним</h2>
-            <fieldset class="fieldset">
+            <div class="fieldset" role="group">
+
                 <!-- First Name -->
-                <label for="name">Имя</label>
-                <input type="text" name="name" id="name">
-                <br>
+                <div class="form-field">
+                    <label class="form-label" for="name">Имя</label>
+                    <input class="form-input" type="text" name="name" id="name">
+                </div>                
                 
                 <!-- Phone number -->
-                <label for="phone">Телефон</label>
-                <input type="tel" name="phone" id="phone">
-                <br>
+                <div class="form-field">
+                    <label class="form-label" for="phone">Телефон</label>
+                    <input class="form-input" type="tel" name="phone" id="phone">
+                </div>                
+
                 <!-- Email -->
-                <label for="email">Почта</label>
-                <input type="email" name="email" id="email">
-                <br>
+                <div class="form-field">
+                    <label class="form-label" for="email">Почта</label>
+                    <input class="form-input" type="email" name="email" id="email">
+                </div>                
+
                 <!-- Comment text area -->
-                <label for="comment">Комментарий</label>
-                <input type="textarea" name="comment" id="comment">
-            </fieldset>
+                <div class="form-field">
+                    <label class="form-label" for="comment">Комментарий</label>
+                    <textarea class="comment" rows="5" name="comment" id="comment" placeholder="Введите текст"></textarea>
+                </div>                
+
+                <!-- Chekbox -->            
+                <div class="condition-checkbox">
+                    <input type="checkbox" value="conditions" name="conditions" id="conditions">
+                    <label for="conditions">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+                </div>    
                 
-            <br>
-                <!-- Chekbox -->
-                <label for="conditions">Соглашаюсь с рассылкой и принимаю Условия договора</label>
-                <input type="checkbox" value="conditions" name="conditions" id="conditions">
-            <br>
+
+            </div>
+            
                 <!-- Submit button -->
-                <button type="submit">Отправить</button>
+                <button class="btn btn-primary" type="submit">Отправить</button>
 
             </form>
 

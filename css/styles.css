@@ -578,10 +578,11 @@ body {
 
 /* Form */
 .modal-form {
+  outline: 1px solid #757575;
 }
 
 .modal-form-title {
-  margin: 0;
+  margin: 0 0 12px 0;
   text-align: center;
   font-size: 20px;
   line-height: 1.15;
@@ -589,9 +590,50 @@ body {
 }
 
 .fieldset {
+  /* display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; */
+}
+
+.form-field {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  margin-bottom: 10px;
+  outline: 1px solid skyblue;
+}
+
+.form-field input {
+  height: 40px;
+  margin: 0;
+  padding: 0;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.form-label {
+  font-size: 12px;
+  line-height: 1.15;
+
+  margin-bottom: 4px;
+}
+
+.form-input {
+}
+
+textarea {
+  resize: none;
+}
+
+.comment {
+  padding: 12px 16px;
+}
+
+.condition-checkbox {
+  display: flex;
+}
+
+.condition-checkbox input[type="checkbox"] {
 }
 
 /* Main section portfolio */
