@@ -455,7 +455,7 @@
         
     </footer>
 
-    <!-- Hero Modal Window -->
+    <!-- Modal Window section -->
     <div data-modal class="backdrop is-hidden">
         <div class="modal">
             <div data-modal-close class="close">
@@ -469,27 +469,30 @@
             
                 <!-- Form label -->
                 <h2 class="modal-form-title">Оставьте свои данные, мы вам перезвоним</h2>
-            
+            <fieldset class="fieldset">
                 <!-- First Name -->
                 <label for="name">Имя</label>
                 <input type="text" name="name" id="name">
-            
-            
-                <!-- Phone number -->
-                <label for="phone" Телефон></label>
-                <input type="tel" name="phone" id="phone">
+                <br>
                 
+                <!-- Phone number -->
+                <label for="phone">Телефон</label>
+                <input type="tel" name="phone" id="phone">
+                <br>
                 <!-- Email -->
                 <label for="email">Почта</label>
                 <input type="email" name="email" id="email">
-
+                <br>
                 <!-- Comment text area -->
                 <label for="comment">Комментарий</label>
-                <input type="textarea" name="comment" id="commenr">
-
+                <input type="textarea" name="comment" id="comment">
+            </fieldset>
+                
+            <br>
                 <!-- Chekbox -->
-
-
+                <label for="conditions">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+                <input type="checkbox" value="conditions" name="conditions" id="conditions">
+            <br>
                 <!-- Submit button -->
                 <button type="submit">Отправить</button>
 

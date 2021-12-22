@@ -576,15 +576,23 @@ body {
   fill: #000000;
 }
 
+/* Form */
 .modal-form {
 }
 
 .modal-form-title {
   margin: 0;
-  text-align: c;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.15;
+  color: var(--mainBlack);
 }
 
-/* Form */
+.fieldset {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 
 /* Main section portfolio */
 .portfolio-tab-list {
