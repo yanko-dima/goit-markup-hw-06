@@ -456,13 +456,45 @@
     </footer>
 
     <!-- Hero Modal Window -->
-    <div data-modal-close data-modal class="backdrop is-hidden">
+    <div data-modal class="backdrop is-hidden">
         <div class="modal">
             <div data-modal-close class="close">
                 <svg class="close-ico">
                     <use href="./images/symbol-defs.svg#icon-close"></use>
-                </svg>
+                </svg>    
             </div>
+
+            <!-- Form -->
+            <form class="modal-form">
+            
+                <!-- Form label -->
+                <h2 class="modal-form-title">Оставьте свои данные, мы вам перезвоним</h2>
+            
+                <!-- First Name -->
+                <label for="name">Имя</label>
+                <input type="text" name="name" id="name">
+            
+            
+                <!-- Phone number -->
+                <label for="phone" Телефон></label>
+                <input type="tel" name="phone" id="phone">
+                
+                <!-- Email -->
+                <label for="email">Почта</label>
+                <input type="email" name="email" id="email">
+
+                <!-- Comment text area -->
+                <label for="comment">Комментарий</label>
+                <input type="textarea" name="comment" id="commenr">
+
+                <!-- Chekbox -->
+
+
+                <!-- Submit button -->
+                <button type="submit">Отправить</button>
+
+            </form>
+
         </div>
     </div>
 

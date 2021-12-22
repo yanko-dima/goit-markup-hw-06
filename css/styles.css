@@ -547,6 +547,7 @@ body {
 
   width: 528px;
   height: 581px;
+  padding: 40px;
 
   background-color: #fff;
   transform: translate(-50%, -50%) scale(1);
@@ -574,6 +575,16 @@ body {
   height: 18px;
   fill: #000000;
 }
+
+.modal-form {
+}
+
+.modal-form-title {
+  margin: 0;
+  text-align: c;
+}
+
+/* Form */
 
 /* Main section portfolio */
 .portfolio-tab-list {
