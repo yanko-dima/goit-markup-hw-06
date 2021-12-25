@@ -518,6 +518,13 @@ input:focus {
   color: rgb(255, 255, 255, 0.6);
 }
 
+/* Footer form */
+.footer-form-block {
+  margin-left: 93px;
+}
+.footer-form {
+}
+
 /* Modal window section */
 .backdrop {
   position: fixed;
