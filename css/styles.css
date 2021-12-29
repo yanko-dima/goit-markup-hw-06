@@ -528,8 +528,51 @@ input:focus {
   margin-left: 93px;
 }
 .footer-form {
+  display: flex;
+  align-items: center;
 }
 
+.footer-form > input {
+  width: 358px;
+  padding: 15px 16px;
+  margin-right: 12px;
+
+  font-size: 16px;
+  line-height: 1.25;
+
+  color: rgba(255, 255, 255, 0.6);
+  background-color: var(--darkBg);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+
+.footer-form > button {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--mainWhite);
+  font-weight: 700;
+  padding: 10px 62px 10px 29px;
+  margin: 0;
+  cursor: pointer;
+
+  background-color: var(--mainBlue);
+  border: 0;
+  border-color: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.send-ico {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 28px;
+}
 /* Modal window section */
 .backdrop {
   position: fixed;
