@@ -641,8 +641,12 @@ input:focus {
   border: 1px solid var(--mainBlue);
 }
 
-.form-input:focus + .form-ico {
+.form-field:focus-within > .form-ico {
   fill: var(--mainBlue);
+}
+
+.form-input:focus {
+  border-color: red;
 }
 
 .form-ico {
